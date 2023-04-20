@@ -1,5 +1,6 @@
+input.onGesture(Gesture.Shake, function () {
+    music.playTone(262, music.beat(BeatFraction.Whole))
+})
 basic.showIcon(IconNames.Heart)
 basic.showString("Hello!")
-basic.forever(function () {
-	
-})
+music.playMelody("- - - - - - - - ", 120)
